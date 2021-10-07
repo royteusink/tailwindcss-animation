@@ -56,7 +56,7 @@ tailwind.config.js
 ## Usage
 
 ```html
-<div class="animate-spin animation-duration-400 lg:animation-duration-none"></div>
+<div class="animate-spin animation-duration-400 lg:animation-direction-reverse"></div>
 ```
 
 ## Animation delay
