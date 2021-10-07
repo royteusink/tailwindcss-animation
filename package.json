@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-animation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TailwindCSS plugin with various animation utilities.",
   "main": "src/index.js",
   "files": [
