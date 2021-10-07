@@ -1,0 +1,37 @@
+{
+  "name": "tailwindcss-animation",
+  "version": "0.1.0",
+  "description": "TailwindCSS plugin with various animation utilities.",
+  "main": "src/index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royteusink/tailwindcss-animation.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "plugin",
+    "animation",
+    "animation-delay",
+    "animation-duration",
+    "animation-iteration-count",
+    "animation-timing-function",
+    "animation-direction",
+    "animation-fill-mode",
+    "animation-play-state"
+  ],
+  "author": "Roy Teusink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royteusink/tailwindcss-animation/issues"
+  },
+  "homepage": "https://github.com/royteusink/tailwindcss-animation#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
