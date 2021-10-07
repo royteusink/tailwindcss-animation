@@ -1,6 +1,14 @@
 # tailwindcss-animation
 
-TailwindCSS plugin with varous animation utilities.
+TailwindCSS plugin with various animation utilities.
+
+- [animationDelay](#animation-delay)
+- [animationDuration](#animation-duration)
+- [animationIteration](#animation-iteration-cout)
+- [animationTiming](#animation-timing-function)
+- [animationDirection](#animation-direction)
+- [animationFillMode](#animation-fill-mode)
+- [animationPlayState](#animation-play-state)
 
 ## Install
 
@@ -47,6 +55,10 @@ tailwind.config.js
 
 ## Usage
 
+```html
+<div class="animate-spin animation-duration-400 lg:animation-duration-none"></div>
+```
+
 ## Animation delay
 
 | Class                | Properties               |
@@ -79,7 +91,7 @@ tailwind.config.js
 | animation-duration-900  | animation-duration: 900ms;  |
 | animation-duration-100  | animation-duration: 1000ms; |
 
-## Animation iteration
+## Animation iteration count
 
 | Class                        | Properties                           |
 | ---------------------------- | ------------------------------------ |
@@ -88,7 +100,7 @@ tailwind.config.js
 | animation-iteration-2x       | animation-iteration-count: 2;        |
 | animation-iteration-infinite | animation-iteration-count: infinite; |
 
-## Animation timing
+## Animation timing function
 
 | Class                        | Properties                              |
 | ---------------------------- | --------------------------------------- |
