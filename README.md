@@ -73,7 +73,7 @@ tailwind.config.js
 | animation-delay-700  | animation-delay: 700ms;  |
 | animation-delay-800  | animation-delay: 800ms;  |
 | animation-delay-900  | animation-delay: 900ms;  |
-| animation-delay-100  | animation-delay: 1000ms; |
+| animation-delay-1000 | animation-delay: 1000ms; |
 
 ## Animation duration
 
@@ -89,7 +89,7 @@ tailwind.config.js
 | animation-duration-700  | animation-duration: 700ms;  |
 | animation-duration-800  | animation-duration: 800ms;  |
 | animation-duration-900  | animation-duration: 900ms;  |
-| animation-duration-100  | animation-duration: 1000ms; |
+| animation-duration-1000 | animation-duration: 1000ms; |
 
 ## Animation iteration count
 
