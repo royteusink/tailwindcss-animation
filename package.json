@@ -1,18 +1,16 @@
 {
   "name": "tailwindcss-animation",
-  "version": "0.1.2",
+  "version": "1.0.0",
+  "author": "Roy Teusink",
+  "license": "MIT",
   "description": "TailwindCSS plugin with various animation utilities.",
   "main": "src/index.js",
   "files": [
-    "!demo/"
+    "src/*.js"
   ],
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/royteusink/tailwindcss-animation.git"
   },
   "keywords": [
     "tailwind",
@@ -28,13 +26,15 @@
     "animation-fill-mode",
     "animation-play-state"
   ],
-  "author": "Roy Teusink",
-  "license": "MIT",
+  "homepage": "https://github.com/royteusink/tailwindcss-animation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royteusink/tailwindcss-animation.git"
+  },
   "bugs": {
     "url": "https://github.com/royteusink/tailwindcss-animation/issues"
   },
-  "homepage": "https://github.com/royteusink/tailwindcss-animation#readme",
   "peerDependencies": {
-    "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+    "tailwindcss": ">=3.2.0"
   }
 }

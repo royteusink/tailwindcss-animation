@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./tailwind.css" rel="stylesheet" />
+        <title>TailwindCSS animation demo</title>
+    </head>
+    <body class="p-10">
+        <div class="mx-auto max-w-4xl flex flex-wrap gap-4">
+            <div class="w-10 h-10 bg-red-500 animate-spin"></div>
+            <div class="w-10 h-10 bg-yellow-500 animate-spin animation-duration-200 sm:bg-yellow-600 lg:bg-yellow-600 sm:animation-duration-400 lg:animation-duration-none"></div>
+            <div class="w-10 h-10 bg-green-500 animate-spin animation-duration-400"></div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin timing-ease-in">2</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin timing-cubic">3</div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin iterate-none"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin iterate-1"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin iterate-none"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin iterate-1"></div>
+            <div class="w-10 h-10 bg-purple-500 animate-spin direction-reverse"></div>
+            <div class="w-10 h-10 bg-pink-500 animate-spin animation-delay-1000"></div>
+            <div class="w-10 h-10 bg-black animate-spin playstate-paused lg:playstate-running"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up fillmode-forwards"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up fillmode-backwards"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up fillmode-both"></div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-delay-[1200ms]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-duration-[1200ms]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin iterate-[3]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up timing-[cubic-bezier(0.1,0.7,1,0.1)]">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up iterate-infinite timing-step-start">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up iterate-infinite timing-step-end">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up iterate-infinite timing-[steps(2,jump-start)]">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin fillmode-[none,backwards]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin fillmode-delay-200 fillmode-[none,backwards]">D</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin timing-ease">1</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin timing-ease-in">1</div>
+            <div class="w-10 h-10 bg-amber-500 animate-spin timing-ease-in-out-quint animation-delay-100 animation-duration-200 fillmode-forwards playstate-running direction-alternate lg:animation-duration-[1200ms]">1</div>
+            <div class="w-10 h-10 bg-green-500 animate-spin timing-ease-in-out-back">1</div>
+
+            <h3 class="w-full text-xl mt-10 mb-2">Compatibility (long classname syntax)</h3>
+            <div class="w-10 h-10 bg-red-500 animate-spin"></div>
+            <div class="w-10 h-10 bg-yellow-500 animate-spin animation-duration-200 sm:bg-yellow-600 lg:bg-yellow-600 sm:animation-duration-400 lg:animation-duration-none"></div>
+            <div class="w-10 h-10 bg-green-500 animate-spin animation-duration-400"></div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin animation-timing-ease-in">2</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin animation-timing-cubic">3</div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin animation-iteration-none"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin animation-iteration-1"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin animation-iteration-none"></div>
+            <div class="w-10 h-10 bg-indigo-500 animate-spin animation-iteration-1"></div>
+            <div class="w-10 h-10 bg-purple-500 animate-spin animation-direction-reverse"></div>
+            <div class="w-10 h-10 bg-pink-500 animate-spin animation-delay-1000"></div>
+            <div class="w-10 h-10 bg-black animate-spin animation-state-paused lg:animation-state-running"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up animation-fill-forwards"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up animation-fill-backwards"></div>
+            <div class="w-10 h-10 bg-black animate-reveal-up animation-fill-both"></div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-delay-[1200ms]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-duration-[1200ms]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-iteration-[3]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up animation-timing-[cubic-bezier(0.1,0.7,1,0.1)]">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up animation-iteration-infinite animation-timing-step-start">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up animation-iteration-infinite animation-timing-step-end">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-reveal-up animation-iteration-infinite animation-timing-[steps(2,jump-start)]">D2</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-fill-[none,backwards]">D</div>
+            <div class="w-10 h-10 bg-pink-100 animate-spin animation-fill-delay-200 animation-fill-[none,backwards]">D</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin animation-timing-ease">1</div>
+            <div class="w-10 h-10 bg-blue-500 animate-spin animation-timing-ease-in">1</div>
+            <div class="w-10 h-10 bg-amber-500 animate-spin animation-timing-ease-in-out-quint animation-delay-100 animation-duration-200 animation-fill-forwards animation-state-running animation-direction-alternate lg:animation-duration-[1200ms]">1</div>
+            <div class="w-10 h-10 bg-green-500 animate-spin animation-timing-ease-in-out-back">1</div>
+        </div>
+    </body>
+</html>

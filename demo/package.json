@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -o tailwind.css --watch",
+    "dev": "npx tailwindcss -o ./tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7",
+    "tailwindcss-animation": "link:../"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21"
+  }
+}
